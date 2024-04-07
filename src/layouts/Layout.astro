@@ -61,10 +61,36 @@ const { title } = Astro.props;
 					</div>
 				</div>
 			</div>
-			<div class="shadow-md shadow-slate-100 h-12 flex justify-between items-cente">
-				<div><span class="text-blue-600 font-semibold">Wireless Earbuds</span>aaaaaaa</div>
-				<div>izq</div>
-				<div>der</div>
+			<div class="shadow-md shadow-slate-100 h-12 flex justify-between items-center">
+				<div class="text-sm text-gray-400 px-6">
+					<span class="text-blue-600 font-semibold">Wireless Earbuds</span> with Lighning Charging Case. Spatial Audio
+				</div>
+				<div class="flex space-x-2">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bg-slate-100 p-1 rounded">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 bg-slate-100 p-1 rounded">
+						<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+					</svg> 
+				</div>
+			</div>
+		</div>
+		<div class="mt-12 container max-w-6xl mx-auto grid grid-cols-4 gap-6">
+			<div class="bg-white shadow shadow-slate-200 rounded-lg p-4">
+				<div class="h-48 w-48 bg-[url('https://m.media-amazon.com/images/I/61WnTqb1MrL.jpg')] bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-semibold bg-slate-100 text-center py-1 rounded-lg">3rd Generation</p>
+			</div>
+			<div class="bg-white shadow shadow-slate-200 rounded-lg p-4">
+				<div class="h-48 w-48 bg-[url('https://tiendasishop.com/media/catalog/product/m/v/mv7n2lz_a_1.jpg')] bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-semibold bg-slate-100 text-center py-1 rounded-lg">2nd Generation</p>
+			</div>
+			<div class="bg-white shadow shadow-slate-200 rounded-lg p-4">
+				<div class="h-48 w-48 bg-[url('https://tiendasishop.com/media/catalog/product/m/g/mgyj3am_a.jpg')] bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-semibold bg-slate-100 text-center py-1 rounded-lg">AirPods Max</p>
+			</div>
+			<div class="bg-white shadow shadow-slate-200 rounded-lg p-4">
+				<div class="h-48 w-48 bg-[url('https://tiendasishop.com/media/catalog/product/8/1/81jkkfdbxjl._ac_sl1500_2048x.jpg')] bg-center bg-[length:100%_100%] mx-auto"></div>
+				<p class="text-blue-600 font-semibold bg-slate-100 text-center py-1 rounded-lg">AirPods Max Blue</p>
 			</div>
 		</div>
 		<slot />
